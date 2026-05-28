@@ -1,0 +1,33 @@
+{
+  "name": "Fractured Realms",
+  "allCardsUrl": "https://sergidev.github.io/FracturedRealms/AllCards.json",
+  "allSetsUrl": "https://sergidev.github.io/FracturedRealms/AllSets.json",
+  "autoUpdateUrl": "https://sergidev.github.io/FracturedRealms/cgs.json",
+  "bannerImageUrl": "https://sergidev.github.io/FracturedRealms/Banner.png",
+  "cardBackImageUrl": "https://sergidev.github.io/FracturedRealms/CardBack.png",
+  "cardImageUrl": "https://sergidev.github.io/FracturedRealms/Art/Cards/{cardId}.jpg",
+  "cardSize": {
+    "x": 2.5,
+    "y": 3.5
+  },
+  "cardPrimaryProperty": "set",
+  "cardProperties": [
+    {
+      "name": "set",
+      "display": "Set",
+      "type": "stringEnum"
+    },
+    {
+      "name": "type",
+      "display": "Card Type",
+      "type": "stringEnum"
+    }
+  ],
+  "enums": [],
+  "gameDefaultCardAction": "rotate",
+  "gamePlayDeckName": "Deck",
+  "gameStartHandCount": 5,
+  "deckPositions": [],
+  "deckUrls": [],
+  "gameStartDecks": []
+}
