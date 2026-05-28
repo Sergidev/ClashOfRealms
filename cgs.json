@@ -5,7 +5,7 @@
   "autoUpdateUrl": "https://sergidev.github.io/ClashOfRealms/cgs.json",
   "bannerImageUrl": "https://sergidev.github.io/ClashOfRealms/Banner.png",
   "cardBackImageUrl": "https://sergidev.github.io/ClashOfRealms/CardBack.png",
-  "cardImageUrl": "https://sergidev.github.io/ClashOfRealms/Art/Cards/{cardId}.webp",
+  "cardImageUrl": "https://sergidev.github.io/ClashOfRealms/Art/Cards/{id}.webp",
   "cardSize": {
     "x": 2.5,
     "y": 3.5
