@@ -1,11 +1,11 @@
 {
-  "name": "Fractured Realms",
-  "allCardsUrl": "https://sergidev.github.io/FracturedRealms/AllCards.json",
-  "allSetsUrl": "https://sergidev.github.io/FracturedRealms/AllSets.json",
-  "autoUpdateUrl": "https://sergidev.github.io/FracturedRealms/cgs.json",
-  "bannerImageUrl": "https://sergidev.github.io/FracturedRealms/Banner.png",
-  "cardBackImageUrl": "https://sergidev.github.io/FracturedRealms/CardBack.png",
-  "cardImageUrl": "https://sergidev.github.io/FracturedRealms/Art/Cards/{cardId}.jpg",
+  "name": "Clash of Realms",
+  "allCardsUrl": "https://sergidev.github.io/Clash-of-Realms/AllCards.json",
+  "allSetsUrl": "https://sergidev.github.io/Clash-of-Realms/AllSets.json",
+  "autoUpdateUrl": "https://sergidev.github.io/Clash-of-Realms/cgs.json",
+  "bannerImageUrl": "https://sergidev.github.io/Clash-of-Realms/Banner.png",
+  "cardBackImageUrl": "https://sergidev.github.io/Clash-of-Realms/CardBack.png",
+  "cardImageUrl": "https://sergidev.github.io/Clash-of-Realms/Art/Cards/{cardId}.png",
   "cardSize": {
     "x": 2.5,
     "y": 3.5
