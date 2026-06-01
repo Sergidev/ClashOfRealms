@@ -71,7 +71,7 @@
 
 **104.2.** A card exists in exactly one zone at all times. Moving a card from one zone to another follows the rules for that transition.
 
-**104.3.** **Permanents** are cards that remain on the board after being played or deployed. Permanents include: Locations, Commanders (when deployed), Battalions, Relics, and Shards. A permanent in play can be the target of effects and interacts with the game state continuously.
+**104.3.** **Permanents** are cards that remain on the board after being played or deployed. Permanents include: Locations, Commanders (when deployed), Battalions, Artifacts, and Shards. A permanent in play can be the target of effects and interacts with the game state continuously.
 
 **104.4.** **Non-permanents** are cards that resolve their effect and immediately leave the board. Maneuvers are non-permanents. When a Maneuver resolves, it is placed in its owner's Graveyard.
 
@@ -267,23 +267,23 @@
 
 ---
 
-### 206. Relic
+### 206. Artifact
 
-**206.1.** Relics are permanent cards. They are played from hand during the Main Phase by paying their mana cost. There are two types of Relics: **Base Relics** and **Equipped Relics**, as determined by the card text.
+**206.1.** Artifacts are permanent cards. They are played from hand during the Main Phase by paying their mana cost. There are two types of Artifacts: **Base Artifacts** and **Equipped Artifacts**, as determined by the card text.
 
-**206.2.** Base Relics
-- **206.2.1.** Base Relics are placed in the player's Base Zone when played.
-- **206.2.2.** Base Relics are in play once placed. Their passive, activated, and triggered abilities are active.
-- **206.2.3.** Base Relics can be targeted by card effects. If a Base Relic is destroyed, it is placed in its owner's Graveyard.
-- **206.2.4.** Base Relics are not units. They cannot attack, defend, or move unless a card effect specifically states otherwise.
+**206.2.** Base Artifacts
+- **206.2.1.** Base Artifacts are placed in the player's Base Zone when played.
+- **206.2.2.** Base Artifacts are in play once placed. Their passive, activated, and triggered abilities are active.
+- **206.2.3.** Base Artifacts can be targeted by card effects. If a Base Artifact is destroyed, it is placed in its owner's Graveyard.
+- **206.2.4.** Base Artifacts are not units. They cannot attack, defend, or move unless a card effect specifically states otherwise.
 
-**206.3.** Equipped Relics
-- **206.3.1.** Equipped Relics carry the **Equip [cost]** keyword (see rule 001.6). To play one, the controller pays the Equip cost and declares a valid target as specified on the card. The target must be in play at the moment of playing.
-- **206.3.2.** An Equipped Relic is not placed in the Base Zone. It is physically placed on or beside its target and remains attached to it.
-- **206.3.3.** The Relic's effects apply to its equipped target and/or its controller as stated on the card.
-- **206.3.4.** An Equipped Relic cannot be unequipped or moved to a different target under normal circumstances. A card effect may permit this only if it explicitly states so.
-- **206.3.5.** If the attached card leaves play by any means (destroyed, returned to hand, sent to Commander Zone, etc.), the Equipped Relic is simultaneously destroyed and placed in its owner's Graveyard.
-- **206.3.6.** An Equipped Relic may be targeted and destroyed independently by card effects. If it is destroyed, its carrier is unaffected.
+**206.3.** Equipped Artifacts
+- **206.3.1.** Equipped Artifacts carry the **Equip [cost]** keyword (see rule 001.6). To play one, the controller pays the Equip cost and declares a valid target as specified on the card. The target must be in play at the moment of playing.
+- **206.3.2.** An Equipped Artifact is not placed in the Base Zone. It is physically placed on or beside its target and remains attached to it.
+- **206.3.3.** The Artifact's effects apply to its equipped target and/or its controller as stated on the card.
+- **206.3.4.** An Equipped Artifact cannot be unequipped or moved to a different target under normal circumstances. A card effect may permit this only if it explicitly states so.
+- **206.3.5.** If the attached card leaves play by any means (destroyed, returned to hand, sent to Commander Zone, etc.), the Equipped Artifact is simultaneously destroyed and placed in its owner's Graveyard.
+- **206.3.6.** An Equipped Artifact may be targeted and destroyed independently by card effects. If it is destroyed, its carrier is unaffected.
 
 ---
 
@@ -292,7 +292,7 @@
 
 **207.2.** Maneuvers without the Reaction keyword may only be played during the controller's own Main Phase while the game is in an Open State.
 
-**207.3.** The **Reaction** keyword may appear on any card type — Maneuvers, Relics, Battalions, Commanders, or activated abilities. Any card or ability with the Reaction keyword may be played or activated during a Closed State in response to an existing Chain Item, regardless of whose turn it is (see rule 803.2).
+**207.3.** The **Reaction** keyword may appear on any card type — Maneuvers, Artifacts, Battalions, Commanders, or activated abilities. Any card or ability with the Reaction keyword may be played or activated during a Closed State in response to an existing Chain Item, regardless of whose turn it is (see rule 803.2).
 
 ---
 
@@ -305,9 +305,9 @@
 
 **301.3.** Base Zone
 - **301.3.1.** Each player has one Base Zone, placed adjacent to their Realm Zone.
-- **301.3.2.** The Base Zone is where Relics are played. Relics in the Base Zone are considered **in play** and their effects are active.
+- **301.3.2.** The Base Zone is where Artifacts are played. Artifacts in the Base Zone are considered **in play** and their effects are active.
 - **301.3.3.** The Base Zone cannot be attacked. No combat or direct damage can be directed at cards in the Base Zone unless a card effect specifically states otherwise.
-- **301.3.4.** Relics in the Base Zone are permanents and can be targeted by card effects unless they have protection.
+- **301.3.4.** Artifacts in the Base Zone are permanents and can be targeted by card effects unless they have protection.
 
 **301.4.** Commander Zone
 - **301.4.1.** Each player has one Commander Zone, placed adjacent to the Realm Zone.
@@ -348,12 +348,12 @@
 - **302.6.3.** A card that is Removed from Game is not considered to be in play. It cannot be targeted, does not have active effects, and does not count as being in any zone for the purpose of game rules.
 - **302.6.4.** Removal from the game is always paired with a return condition defined by the effect that caused the removal (e.g. "until this unit leaves the Battlefield"). When the return condition is met, the card returns to its **default zone**:
   - Commanders → Commander Zone (fully reset, see rule 203.7)
-  - Base Relics → Base Zone (unequipped, in normal Base state)
-  - Equipped Relics → Base Zone (no longer attached; returns as an unequipped Base Relic)
+  - Base Artifacts → Base Zone (unequipped, in normal Base state)
+  - Equipped Artifacts → Base Zone (no longer attached; returns as an unequipped Base Artifact)
   - Battalions → Graveyard (unless the returning effect specifies otherwise)
   - Locations → their Location Zone (face-up, with Integrity reset to the value it had when removed)
   - All other cards → the zone they occupied before being removed, unless the effect specifies otherwise.
-- **302.6.5.** If an Equipped Relic is Removed from Game, it loses its attachment. When it returns, it returns to the Base Zone as an unequipped Relic. The unit it was attached to is unaffected.
+- **302.6.5.** If an Equipped Artifact is Removed from Game, it loses its attachment. When it returns, it returns to the Base Zone as an unequipped Artifact. The unit it was attached to is unaffected.
 - **302.6.6.** "Remove from Game" is not the same as "destroy." An Unperishable card may be Removed from Game.
 
 ---
@@ -716,7 +716,7 @@ The Combat Phase only occurs when combat is triggered during the Main Phase.
 **803.1.** When a player plays a card or activates an ability, it is placed on the top of the Chain as a **Pending Item.** Priority then passes to the opponent.
 
 **803.2.** Reactions:
-- **803.2.1.** The **Reaction** keyword may appear on any card type — Maneuvers, Relics, Battalions, Commanders, or activated abilities on any card. Any card or ability with the Reaction keyword may be played or activated in response to an existing Chain Item, during a Closed State, even on the opponent's turn.
+- **803.2.1.** The **Reaction** keyword may appear on any card type — Maneuvers, Artifacts, Battalions, Commanders, or activated abilities on any card. Any card or ability with the Reaction keyword may be played or activated in response to an existing Chain Item, during a Closed State, even on the opponent's turn.
 - **803.2.2.** Either player may play or activate a Reaction when they hold priority, as long as a Chain exists.
 
 **803.3.** In combat, the Attacker receives priority first when the Showdown Chain opens.
@@ -771,7 +771,7 @@ Keywords are special rules that appear on cards as shorthand. Each keyword has a
 | **Annihilate** | When this unit deals any damage to an enemy unit, that unit is destroyed, regardless of remaining Power. May assign any non-zero damage to a target; mandatory-lethal does not apply to this unit. Unperishable prevents the destruction. |
 | **Backline** | This unit may only be assigned lethal combat damage after all non-Backline units in the same Zone have been assigned lethal damage. If no Power remains after non-Backline units, this unit takes no damage. |
 | **Catalyze** | Draw a Shard from the Shard Deck and place it in the Shard Zone in a Ready state. Standard rate: 2 per Resource Phase (3 for the second player on their first turn). May also appear on card effects as a bonus action. |
-| **Equip [cost]** | A two-cost keyword on Relics. The play cost puts the Relic in the Base Zone. The Equip cost (paid separately during your Main Phase, Open State) attaches it to a valid friendly target. Equip cost 0 = free attachment. No Equip keyword = cannot be attached. Not a Reaction. |
+| **Equip [cost]** | A two-cost keyword on Artifacts. The play cost puts the Artifact in the Base Zone. The Equip cost (paid separately during your Main Phase, Open State) attaches it to a valid friendly target. Equip cost 0 = free attachment. No Equip keyword = cannot be attached. Not a Reaction. |
 | **Examine [X]** | Look at the top X cards of your Main Deck. Place any number of them on the top and/or bottom of your deck in any order of your choice. Cards not placed on top go to the bottom. You do not reveal them to your opponent. |
 | **Frontline** | This unit must be assigned lethal combat damage before any non-Frontline unit in the same Zone can be assigned damage. If multiple Frontline units are present, the assigning player chooses the order among them. |
 | **Haste** | This unit enters play in a Ready state instead of Exhausted. It may move, attack, or be deployed and act the same turn it enters the Battlefield. |
@@ -792,7 +792,7 @@ Game concepts and zone definitions used throughout these rules.
 | Term | Definition |
 |---|---|
 | **Attacker** | The player who moved units into an enemy Location Zone, initiating combat. |
-| **Base Zone** | A Battlefield Zone where each player's Relics are placed when played. Relics here are in play and can be targeted. Cannot be attacked. |
+| **Base Zone** | A Battlefield Zone where each player's Artifacts are placed when played. Artifacts here are in play and can be targeted. Cannot be attacked. |
 | **Battlefield** | The entire physical play area: all Location Zones, Base Zones, Commander Zones, Shard Zones, and Realm Zones of both players. A card "leaves the Battlefield" when it moves to the Graveyard, Hand, Deck, or Removed from Game. |
 | **Chain** | The ordered stack of effects waiting to resolve. Resolves Last In, First Out (LIFO). |
 | **Closed State** | A game state in which a Chain exists. Only Reactions may be played. |
@@ -802,7 +802,7 @@ Game concepts and zone definitions used throughout these rules.
 | **De-ramp** | Removing a Shard from the Battlefield. Shards are not destroyed; instead they are Stored to the bottom of the Shard Deck. |
 | **Defender** | The player whose Location Zone is being attacked. |
 | **Destroyed** | A unit with damage equal to or exceeding its Power is destroyed and sent to the Graveyard (or Commander Zone for Commanders). A Location whose Integrity reaches zero is flipped face-down with all abilities suppressed. |
-| **Equipped Relic** | A Relic attached to a unit or Location via the Equip action. Cannot normally be unequipped or moved. Destroyed when its carrier leaves the Battlefield. |
+| **Equipped Artifact** | A Artifact attached to a unit or Location via the Equip action. Cannot normally be unequipped or moved. Destroyed when its carrier leaves the Battlefield. |
 | **Exhausted** | Horizontal card state. Cannot be used or exhausted again until Readied. |
 | **Failed Attack** | A combat in which one or more Defending Units survive. The Location takes no damage. The Defender wins the combat. |
 | **Fight** | A direct damage exchange between two specific units triggered by a card effect. Not a Combat. No Location is attacked, no Showdown occurs, and no player wins or loses a combat. Both units deal their Power to each other simultaneously. |
