@@ -137,10 +137,11 @@
 ### 103. Deck Construction
 **103.1.** To play Clash of Realms, each player must prepare the following:
 - 1 Realm Card
-- 3 Location Cards (all different; no duplicates allowed)
-- 3 Commander Cards (all different; no duplicates allowed)
-- A Main Deck of exactly 40 cards
-- A Shard Deck of exactly 10 Shard cards
+- 3 Location Cards (all different; no duplicates allowed).
+- 3 Commander Cards (all different; no duplicates allowed).
+- A Main Deck of exactly 40 cards (Any combination of Battalion, Maneuver and Artifact cards).
+- A Side Deck of exactly 10 Shard cards. (Any combination of Battalion, Maneuver and Artifact cards).
+- A Shard Deck of exactly 10 Shard cards.
 
 **103.2.** Realm Card
 - **103.2.1.** The Realm card defines your deck's Identity: the set of Identity Colors your deck may use.
@@ -172,8 +173,11 @@
 **103.7.** Shard Deck
 - **103.7.1.** The Shard Deck contains exactly 10 Shard cards. It is kept separate from the Main Deck.
 - **103.7.2.** Shards do not have Identity Colors and have no identity restrictions.
-- **103.7.3.** Basic Shards — Shards whose only effect is to produce mana of one color — have **no copy limit** in the Shard Deck.
-- **103.7.4.** Special Shards — Shards that have any effect beyond basic mana production — are limited to a maximum of **3 copies** per Shard Deck.
+- **103.7.3.** Shards have **no copy limit** in the Shard Deck.
+
+**103.8.** Side Deck
+- **103.8.1.** The Side Deck contains exactly 10 cards. It is kept separate from the Main Deck.
+- **103.8.2.** Side Deck cards can be exchanged by cards from the Main Deck. Tournament rules may restrict the Side Deck use.
 
 ---
 
